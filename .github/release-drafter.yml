@@ -1,0 +1,19 @@
+name-template: v$NEXT_PATCH_VERSION
+tag-template: v$NEXT_PATCH_VERSION
+categories:
+  - title: Breaking Changes
+    label: breaking
+  - title: Features
+    label: enhancement
+  - title: Bug Fixes
+    label: bug
+  - title: Maintenance
+    label: chore
+template: |
+  # Changes
+
+  $CHANGES
+
+  # Contributors
+
+  $CONTRIBUTORS
